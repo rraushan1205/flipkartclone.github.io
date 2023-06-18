@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttn-set</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="script.js"></script>
+    <div class="nav">
+        <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk-plus_3b0baa.png" alt="">
+        <input type="text" class="searchbtn" placeholder="Search for Products and more">
+        <button class="sv" type="submit" fdprocessedid="rki94r"><svg width="20" height="20" viewBox="0 0 17 18" class=""
+                xmlns="http://www.w3.org/2000/svg">
+                <g fill="#2874F1" fill-rule="evenodd">
+                    <path class="_34RNph"
+                        d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203">
+                    </path>
+                    <path class="_34RNph"
+                        d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+                    </path>
+                </g>
+            </svg></button>
+        <p>Raushan</p>
+        <p>Become a seller</p>
+        <p>More</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="cart" viewBox="0 0 16 16">
+            <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+        </svg>
+        <h5>Cart</h5>
+        <!-- <div class="sv"></div> -->
+    </div>
+    <div class="main-body">
+        <div class="one">
+            <div class="side-gr">
+                <img src="https://drive.google.com/uc?export=download&id=12E_H5HXhNwvdNS4Uq2XkbX_dWcbtAUy4" onclick="changeImage1()" onmouseover="changeImage1()" alt="">
+                <img src="https://drive.google.com/uc?export=download&id=1BbMcsIv8RxWbOZZminz23Zoas9wqtzRB" onclick="changeImage2()" onmouseover="changeImage2()" alt="">
+                <img src="https://drive.google.com/uc?export=download&id=1MKh3-1ukEkyCZ3g0Hahoawq4Sy6vLH6Z" onclick="changeImage3()" onmouseover="changeImage3()" alt="">
+            </div>
+            <div class="main-im">
+                <img id="mainimgs" src="https://drive.google.com/uc?export=download&id=12E_H5HXhNwvdNS4Uq2XkbX_dWcbtAUy4" alt="">
+                <div class="btn-buy">
+                    <button class="buy"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="cart" viewBox="0 0 16 16">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                        <h3>ADD TO CART</h3>
+                    </button>
+                    <button class="acart"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
+                            class="bi bi-lightning-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z" />
+                        </svg>
+                        <h3> BUY NOW</h3>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="two">
+            <div><p style="color: rgb(179, 173, 173);font-size: 14px;font-family:'Roboto Medium',Arial, sans-serif;">Home > Personal items > personal.. > Digshaurya</p></div>
+            <p class="head1"> Digshaurya - 5'10" <br> <span class="head2"> 4,382 Ratings & 448 Reviews <img
+                        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png"
+                        alt=""></span> </p>
+            <span class="sp">special price</span>
+            <span class="prices">
+                <span class="price">₹99</span>
+                <span class="dprice">₹100 </span>
+                <span class="pprice">1% off</span>
+                <span id="i_button">i</span>
+            </span>
+            <div class="offers">
+                <p class="head">Available offers</p>
+                <span class="offer"><img
+                        src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <p>Special Price Get extra 25% off (price inclusive of cashback/coupon)T&C</p>
+                </span>
+                <span class="offer"><img
+                        src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <p>Bank Offer Pay with UPI and Get ₹15 discountT&C</p>
+                </span>
+                <span class="offer"><img
+                        src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <p>Bank Offer Flat ₹25 Off on HDFC Bank Credit Card EMI Trxns on orders priced between ₹150 to ₹399
+                        T&C</p>
+                </span>
+                <span class="offer"><img
+                        src="https://rukminim1.flixcart.com/www/36/36/promos/06/09/2016/c22c9fc4-0555-4460-8401-bf5c28d7ba29.png?q=90"
+                        alt="">
+                    <p>Bank Offer Flat ₹30 Off on HDFC Bank Credit Card EMI Trxns on orders priced between ₹400 to ₹499
+                        T&C</p>
+                </span>
+                <span id="linktoview">View 9 more offers</span>
+            </div>
+            <div class="delivery">
+                <div class="locate">
+                    <p class="delhead">Delivery</p>
+                    <div class="delinp">
+                        <svg viewBox="0 0 9 12" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#2874f0"
+                                d="M4.2 5.7c-.828 0-1.5-.672-1.5-1.5 0-.398.158-.78.44-1.06.28-.282.662-.44 1.06-.44.828 0 1.5.672 1.5 1.5 0 .398-.158.78-.44 1.06-.28.282-.662.44-1.06.44zm0-5.7C1.88 0 0 1.88 0 4.2 0 7.35 4.2 12 4.2 12s4.2-4.65 4.2-7.8C8.4 1.88 6.52 0 4.2 0z"
+                                fill-rule="evenodd"></path>
+                        </svg>
+                        <input type="text">
+                        <p>Change</p>
+                    </div>
+                </div>
+                <div style="margin-left: 60px;">
+                    <div class="estimation">
+                        <p style="font-family:'Roboto Medium';font-weight:500;">Delivery by 20 Jun, Tuesday |
+                        <p style="font-family:'Roboto Medium';font-weight:500;" class="f">Free</p>
+                        <p class="pr" style="font-family:'Roboto Medium';font-weight:550;">₹40</p>
+                        </p>
+                        <span id="q_button">?</span>
+                    </div>
+                    <div class="sec" style="font-family:'Roboto Medium';font-weight:400">
+                        if ordered before 11:50 PM
+                    </div>
+                    <div class="sec t2" style="font-family:'Roboto Medium';font-weight:400">
+                        View Details
+                    </div>
+                </div>
+                <div class="highlights">
+                    <div style="display: flex;">
+                        <p class="h1" style="font-family:'Roboto Medium';font-weight:400">Highlights</p>
+                        <ul style="font-family:'Roboto Medium';font-weight:400">
+                            <li>Long Lasting</li>
+                            <li>living expectancy: <10%< /li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="supercoin">
+                    <img src="https://rukminim1.flixcart.com/lockin/400/400/images/promotion_banner_v2_active.png?q=50"
+                        alt="">
+                </div>
+                <div class="specs" style="font-family:'Roboto Medium', Arial, sans-serif;font-weight:400">
+                    <div class="head">
+                        <p>Specifications</p>
+                    </div>
+                    <div class="inthebox">
+                        <p>In The Box</p>
+                        <p>
+                            1 Main unit, 1 Manual</p>
+                    </div>
+                    <div class="gen" style="font-family:'Roboto Medium';font-weight:400">
+                        <p>General</p>
+                        <ul>
+                            <li>
+                                <p>Model</p>
+                                <p>Random Number</p>
+                            </li>
+                            <li>
+                                <p id="tsec">N/A</p>
+                                <p>N/A</p>
+                            </li>
+                            <li id="over">
+                                <p id="tsec">N/A</p>
+                                <p>N/A</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="readm" style="font-family:'Roboto Medium';font-weight:400">
+                        <p>Read More..</p>
+                    </div>
+                </div>
+                <div class="reviews" style="font-family:'Roboto Medium';font-weight:500">
+                    <p>Ratings & Reviews</p>
+                    <p class="nrev">no reviews yet...</p>
+                </div>
+                <div class="qna" style="font-family:'Roboto Medium';font-weight:500">
+                    <div class="qbar">
+                        <p>Questions and Answers</p>
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JvdXAgNTwvdGl0bGU+PGcgZmlsbD0iIzIxMjEyMSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNMTEuNjE4IDkuODk3bDQuMjI0IDQuMjEyYy4wOTIuMDkuMS4yMy4wMi4zMTJsLTEuNDY0IDEuNDZjLS4wOC4wOC0uMjIyLjA3Mi0uMzE0LS4wMkw5Ljg2OCAxMS42Nk02LjQ4NiAxMC45Yy0yLjQyIDAtNC4zOC0xLjk1NS00LjM4LTQuMzY3IDAtMi40MTMgMS45Ni00LjM3IDQuMzgtNC4zN3M0LjM4IDEuOTU3IDQuMzggNC4zN2MwIDIuNDEyLTEuOTYgNC4zNjgtNC4zOCA0LjM2OG0wLTEwLjgzNEMyLjkwNC4wNjYgMCAyLjk2IDAgNi41MzMgMCAxMC4xMDUgMi45MDQgMTMgNi40ODYgMTNzNi40ODctMi44OTUgNi40ODctNi40NjdjMC0zLjU3Mi0yLjkwNS02LjQ2Ny02LjQ4Ny02LjQ2NyIvPjwvZz48L3N2Zz4="
+                            height="20" width="20">
+                    </div>
+                    <p class="nrev">No Questions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="companies" style="font-family:'Roboto Medium',Arial, sans-serif;">
+        <span id="comphead">
+        <p>Top Stories:</p>
+        <p>Brand Directory</p>
+    </span>
+        <span id="compname">
+            <a href="">MOST SEARCHED BED:</a> 1200D | CANON | CANON 600D PRICE IN INDIA | CANON EOS 70 |DIPOD | APPLEONIDA | SMART TV |SONY LED TV PRICE | 32 INCH | VIDEOCON LED PRICE | GODREJ AC PRICE LIST |HITACHI SPLIT AC | FAN PRICE | FRIDGE PRICE | WHIRLPOOL REFRIGERATOR PRICE LIST | VACUUM CLEANER ONLINE | WATER FILTER PRICE | ELECTRIC EGG BOILER | INDUCTION OVEN |JUICER MIXER GRINDER | CHAPATI MAKER |OXY FRYER | PANASONIC LANDLINE PHONES | LG 32LB550 | NIKON D4 | PHILIPS QT4011 | ROOM HEATER | SENSORS & ALARMS | INDUCTION \ BEST ROTI MAKERS
+    </span>
+    </div>
+    <footer>
+        <div>
+            <div class="grid" style="font-family:'Roboto Medium',Arial, sans-serif;">
+                <ul>
+                    <p>ABOUT</p>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Flipkart Stories</li>
+                    <li>Press</li>
+                    <li>Flipkart Wholesale</li>
+                    <li>Corporate Information</li>
+                </ul>
+                <ul>
+                    <p>HELP</p>
+                    <li>Payments</li>
+                    <li>Shipping</li>
+                    <li>Cancellation & Returns</li>
+                    <li>FAQ</li>
+                    <li>Report Infringement</li>
+                </ul>
+                <ul>
+                    <p>CONSUMER POLICY</p>
+                    <li>Return Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Security</li>
+                    <li>Privacy</li>
+                    <li>Sitemap</li>
+                    <li>Grievance Redressal</li>
+                    <li>EPR Compliance</li>
+                </ul>
+                <ul>
+                    <p>SOCIAL</p>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                </ul>
+                <ul id="mail" style="padding-right: 0;">
+                    <div class="in">
+                        <p>Mail Us:</p>
+                        <li>
+                            <h3 style="line-height: 18px;">Flipkart Internet Private Limited,<br>
+                                Buildings Alyssa, Begonia & <br>
+                                Clove Embassy Tech Village, <br>
+                                Outer Ring Road, Devarabeesanahalli Village, <br>
+                                Bengaluru, 560103,<br>
+                                Karnataka, India</h3>
+                        </li>
+                    </div>
+                </ul>
+                <ul id="add" style="padding-left: 0;">
+                    <p>Registered Office Address</p>
+                    <li>
+                        <h3 style="line-height: 18px;">Flipkart Internet Private Limited,
+                            Buildings Alyssa, Begonia & <br>
+                            Clove Embassy Tech Village, <br>
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+                            Bengaluru, 560103,<br>
+                            Karnataka, India<br>
+                            CIN : U51109KA2012PTC066107<br>
+                            Telephone: 044-45614700</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-head" style="font-family:'Roboto Medium',Arial, sans-serif;">
+                <div class="seller">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K">
+                    <p>Become a seller</p>
+                </div>
+                <div class="advertise">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=">
+                    <p>Advertise</p>
+                </div>
+                <div class="gift">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg==">
+                    <p>Gift Cards</p>
+                </div>
+                <div class="help">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=">
+                    <p>Help Center</p>
+                </div>
+                <div id="cpright">
+                    <p>© 2007-2023 Flipkart.com
+                    </p>
+                </div>
+                <div class="cards">
+                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
